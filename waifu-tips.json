@@ -30,7 +30,7 @@
 		"selector": ".menu-item-about",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
-		"selector": ".menu-item-tags",
+		"selector": ".tag-item",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。", "快看看这里都有什么呢！"]
 	}, {
 		"selector": ".menu-item-categories",
@@ -42,10 +42,10 @@
 		"selector": ".menu-item-friends",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".menu-item-search",
+		"selector": "#search-btn",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
-		"selector": ".site-author",
+		"selector": "a[href='http://gadzan.com']",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
 		"selector": ".site-state",
@@ -84,13 +84,13 @@
 		"selector": ".post-title-link",
 		"text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 这篇文章吗？"]
 	}, {
-		"selector": "a[rel='contents']",
+		"selector": ".post-toptitle",
 		"text": ["点击来阅读全文哦。"]
 	}, {
-		"selector": "a[itemprop='discussionUrl']",
+		"selector": ".gt-header-comment",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": ".go-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
 		"selector": "#rewardButton",
@@ -126,10 +126,10 @@
 		"selector": ".need-share-button_facebook",
 		"text": ["emmm…FB好像也是不存在的东西？"]
 	}, {
-		"selector": ".post-nav-next",
+		"selector": ".next",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".post-nav-prev",
+		"selector": ".prev",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
 		"selector": ".extend.next",
