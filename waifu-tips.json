@@ -75,13 +75,13 @@
 		"selector": "a[href^='mailto']",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
-		"selector": "a[href^='/tags/']",
+		"selector": "a[href^='/tag/']",
 		"text": ["要去看看 <span style=\"color:#0099cc;\">{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
 		"selector": "a[href^='/categories/']",
 		"text": ["要去看看 <span style=\"color:#0099cc;\">{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": ".post-toptitle a",
 		"text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 这篇文章吗？"]
 	}, {
 		"selector": ".post-toptitle",
@@ -126,10 +126,10 @@
 		"selector": ".need-share-button_facebook",
 		"text": ["emmm…FB好像也是不存在的东西？"]
 	}, {
-		"selector": ".next",
+		"selector": ".next a",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".prev",
+		"selector": ".prev a",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
 		"selector": ".extend.next",
